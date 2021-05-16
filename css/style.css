@@ -3,6 +3,10 @@
 @lightblue: #56a099;
 */
 
+*{
+    
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
 }
@@ -13,6 +17,10 @@ body {
     font-weight: 400;
     font-style: normal;
     color: white !important;
+
+    background-image: url(/images/Background-03.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 a.navbar-brand {

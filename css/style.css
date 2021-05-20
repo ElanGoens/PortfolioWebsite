@@ -66,7 +66,7 @@ h2{
 
 .screen{
     padding: 0px 20px;
-
+    text-align: center;
 }
 .photo{
     max-height: 200px;
@@ -107,4 +107,8 @@ a{
   
   #myBtn:hover {
     background-color: #555;
+  }
+
+  .photolink{
+      text-decoration: underline;
   }

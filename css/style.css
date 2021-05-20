@@ -83,6 +83,10 @@ a{
     margin: 10px 20px 0px 20px;
 }
 
+.btn-primary{
+    background-color: #56a099 !important;
+    border: 2px solid #56a099 !important;
+}
 
 
 #myBtn {

@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-4 screen">
                     <img class="photo" src="images/Zeestern.png" alt="Ervaring-Zeestern">
-                   <a href="https://www.zeestern.be/" target="_blank">Zeestern Immaculata</a>
+                    <a href="https://www.zeestern.be/" target="_blank">Zeestern Immaculata</a>
                 </div>
                 <div class="col-4 screen">
                     <img class="photo" src="images/YogaSofie.png" alt="Ervaring-YogaSofie">
@@ -205,9 +205,24 @@
                     </p>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <h1>Mijn CV</h1>
+                    <p>Interesse om samen te werken? Voel je vrij om contact met mij op te nemen.</p>
+
+                    <h2>My CV</h2>
+                    <p class="eng">Interested in working together? Feel free to contact me.</p>
+                    <a href="Elan-cv.pdf" download="CV"><button src="Elan-cv.pdf"  type="button" class="btn btn-primary">Download CV</button></a>
+                </div>
+                <div class="col"></div>
+            </div>
+
+
         </div>
 
-       
+
 
     </main>
 
@@ -231,24 +246,26 @@
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
-        
+
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
         function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
         }
-        
+
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
-        </script>
+    </script>
 
 </body>
 

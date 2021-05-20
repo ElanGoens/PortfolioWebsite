@@ -64,7 +64,43 @@ h2{
     color: #56a099 !important;
 }
 
-.m0{
-    margin: 0px!important;
-    
+.screen{
+    padding: 0px 20px;
+
 }
+.photo{
+    max-height: 200px;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+img.bigm{
+    margin-left: 160px;
+}
+
+a{
+    color: white !important;
+    margin: 10px 20px 0px 20px;
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 80px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #56a099;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
